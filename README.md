@@ -19,6 +19,8 @@ docker run --rm -v $PWD:/data python-dupfinder:latest /data/{name-of-your-folder
 sample docker run :
 
 docker run --rm -v $PWD:/data python-dupfinder:latest /data/docker-volume/folder1
+
+
 Scanning /data/docker-volume/folder1...
 Duplicates Found:
 The following files are identical. The name could differ, but the content is identical
@@ -33,6 +35,9 @@ ___________________
 sample docker run2:
 
 docker run --rm -v $PWD:/data python-dupfinder:latest /data/docker-volume/folder2
+
+
+
 Scanning /data/docker-volume/folder2...
 Duplicates Found:
 The following files are identical. The name could differ, but the content is identical
